@@ -1,0 +1,11 @@
+#message-record {
+  max-height: 50vh;
+  overflow: auto;
+  word-wrap: break-word;
+}
+
+footer {
+  position: fixed;
+  left: 50%;
+  bottom: 5px;
+}

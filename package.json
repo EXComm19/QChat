@@ -1,0 +1,16 @@
+{
+  "name": "qchat",
+  "version": "0.4.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "EXComm19",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0",
+    "password-hash": "^1.2.2"
+  }
+}
