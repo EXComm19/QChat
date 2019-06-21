@@ -19,7 +19,7 @@ window.onload = function() {
     fetch('/login', options).then(response => {
       const res = response.json()
       if (res.auth) {
-        current_username = res.username
+        window.location = "/chat"
       }
       console.log(res);
     })
