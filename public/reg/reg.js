@@ -20,5 +20,7 @@ window.onload = function() {
       const json = response.json()
       console.log(json);
     })
+
+    window.location = "/chat"
   }
 }
