@@ -21,6 +21,6 @@ window.onload = function() {
       console.log(json);
     })
 
-    window.location = "/chat"
+    window.location = "/login"
   }
 }
